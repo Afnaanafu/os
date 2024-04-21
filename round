@@ -1,0 +1,42 @@
+#include<stdio.h>
+#include<conio.h>
+int TRUE = 0;
+int FALSE = -1;
+int tbt[30],bt[30],tat[30],n=0,wt[30],qt=0,tqt=0,time=0,lmore,t_tat=0,t_wt=0;
+void main
+{ int i,j;
+cirscrO;
+printf("nEnter no. of processors:");
+scanf("⅑d", &n);
+printf("nEnter Quantum Time:");
+scanf("d", &qt);
+for(i=0;i<n;i++)
+printf("nEnter Burst Time of Processor[%d]:",i+1);
+scanf("d", &bi[i]);
+tbt[i] = bt[i];
+wt[i] = tat[i] = 0;
+Imore = TRUE;
+while(Imore = TRUE)
+Imore = FALSE;
+for(i=0;i<n;i++)
+if(bt[i]!= 0)
+wtfi] = wt[i] + (time - tat(il);
+tqt = 1;
+while(ats=gt&& bti]!=)
+Imore = TRUE;
+bt[i] = btfi] -1;
+tattt;
+timett;
+tat[i] = time;
+}
+printf(" nProcessor ID tBurstTime\tTurnAroundTime tWaitingTimeln");
+for(i=0;i<n;i++)
+printf"Processor©d\t\t%d\t\t%dt\dIn", it 1,tbt[i], tat[i],wtfi));
++ tat = t_tat + tatli);
+t_wt=t_wt+ wifil;
+}
+printf("nTotal Turn Around Time:%d", t tat);
+printi("nAverage Turn Around Time:%d", t tat/n);
+printIn Total Waiting Time:%d",t_wt);
+printf("nAverage Waiting Time:%d", t _wt/n);
+getch;
