@@ -1,0 +1,53 @@
+#include<stdio.h>
+#include<conio.h>
+int p|301,bt[301,tot tat-0,wt[301,n,tot wt-0,tat|30],SJF_wt-0,SJF tat-0;
+float awt,avg_tat,avg_wt;
+void main
+int i;
+clrscrO;
+printf("nEnter the no.of processes \n");
+scanf("%d", &n);
+printi"Enter burst time for each processin");
+for(i=0;i<n;i++)
+scanf("@d", &bt[i]);
+plil=i；
+WT_TAT(&SJF _tat, &SJF_wt);
+printf("ninTotal Turn around Time:%d",SJF_tat);
+printf(" nAverage Turn around Time :%d", SJF_tat/n);
+printi"nTotal Waiting Time:%d", SJF_wt);
+printf("nTotal avg. Waiting Time:%d", SJF_wt/n);
+getchO;
+int sort
+int t,i.j;
+for(i=0;i<n;i++)
+for(j=i+l;j<n;j++)
+iffbt［i>bt［i］）
+swap(&bt[i],&bt[i]);
+swap(&p[il,&p[il);
+}
+return 0;
+int swap(int *a, int *b)
+int t;
+t=*a；
+*a=*b；
+*b= t;
+return 0;
+int WT_TAT(int *a, int *b)
+int i;
+for(i=0;i<n;i++)
+if(i=0)
+tat[i] = bt[i];
+else
+tat[i] = tat[i-1] + btfi];
+tot tat-tot _tatttat[i];
+}
+*a=tot_tat，
+wt[0]=0;
+for(i-li<ni++)
+wtfi]-wtfi-1]+bt[i-11;
+tot_wt= tot_wt+wt[i];
+*b=tot_wt;
+printf("nPROCESSItBURST TIMENTURN AROUND TIME tWAITING TIME");
+for(i=0; i<n; i++)
+printf("nprocess[%d]\t\t%d\t\t%d\t\t%d",p[i]+1,bt[i],tat[i],wt[i]);
+return 0:
